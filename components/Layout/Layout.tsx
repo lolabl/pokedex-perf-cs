@@ -22,6 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           alt=""
           className={styles.heroBanner}
           fill
+          priority
         />
       </div>
       <div className={styles.content}>{children}</div>
